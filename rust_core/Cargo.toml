@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "core_lib", "rust_core_console",
+]
+resolver = "2"

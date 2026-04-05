@@ -1,9 +1,12 @@
-# Welcome to Cardfall
+---
+title: Home
+nav_order: 1
+---
 
 Cardfall is a cross-platform collectible card game engine.
 
 ## Documentation
 
-- [Design Document](design-document.md)
-- [Game Rules](game-rules.md)
-- [Architecture](architecture.md)
+- [Game Rules](game-rules/)
+- [Architecture](architecture/)
+- [Design Document](design-document/)

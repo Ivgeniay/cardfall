@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "core: build",
+            "type": "shell",
+            "command": "cargo build",
+            "options": {
+                "cwd": "${workspaceFolder}/rust_core"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$rustc"
+        },
+        {
+            "label": "core: run console",
+            "type": "shell",
+            "command": "cargo run -p rust_core_console",
+            "options": {
+                "cwd": "${workspaceFolder}/rust_core"
+            },
+            "group": "build",
+            "problemMatcher": "$rustc"
+        }
+    ]
+}

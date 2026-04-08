@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "core: debug console",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/rust_core/target/debug/rust_core_console",
+            "args": [],
+            "cwd": "${workspaceFolder}/rust_core",
+            "preLaunchTask": "core: build"
+        }
+    ]
+}
